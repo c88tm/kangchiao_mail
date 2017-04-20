@@ -53,12 +53,12 @@ for student in students:
     special_word = ""
 
     while True:
-        ans = raw_input('有沒有特別想對 '+student['name']+ ' (y/n): ')
+        ans = raw_input('有沒有特別想對 '+student['name']+ ' 的家長說的話(y/n): ')
         if ans == "y":
             special_word=raw_input('請輸入想對家長說的話: ')
             print "輸入完成"
             break
-        else:
+        if ans == "n":
             break
         print "請輸入 y 或 n"
     
@@ -68,7 +68,7 @@ for student in students:
             student['attitude']=raw_input('請輸入上課態度評語: ')
             print "輸入完成"
             break
-        else:
+        if ans == "n":
             break
         print "請輸入 y 或 n"
    
@@ -79,7 +79,7 @@ for student in students:
             student['attitude']=raw_input('請輸入學習狀況評語: ')
             print "輸入完成"
             break
-        else:
+        if ans == "n":
             break
         print "請輸入 y 或 n"
    
