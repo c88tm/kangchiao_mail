@@ -29,7 +29,7 @@ students = [
         'name':'謝知我',
         'studycase':'優良',
         'attitude':'優良',
-        'email':['b04611015@csie.ntu.edu.tw']},
+        'email':['philip20336@gmail.com','b04611015@csie.ntu.edu.tw']},
     
     {
         'name' : '蔡嘉恩',
