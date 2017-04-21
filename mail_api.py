@@ -8,9 +8,9 @@ from email.header import Header
 class MailSender(object):
     def __init__ (self,mail_list):
         self.mail_host= "smtp.gmail.com"  
-        self.mail_user= "philip20336@gmail.com" # Gmail 信箱
-        self.mail_pass= "0933862710" # 密碼
-        self.sender = 'philip20336@gmail.com' # 信箱名
+        self.mail_user= "6@gmail.com" # Gmail 信箱
+        self.mail_pass= "" # 密碼
+        self.sender = '36@gmail.com' # 信箱名
         self.receivers = mail_list
     def send(self):
         try:
