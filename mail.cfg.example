@@ -1,0 +1,17 @@
+[DEFAULT]
+homework = 無
+study = 期末考試
+studycase = 優良
+attitude = 優良
+date = 6/21
+quiz = 無
+attendance = 準時
+specialword = 這禮拜請代課老師協助監考
+    希望最後的考試有幫助你們總結這學期所學
+    這學期的課程就這樣結束了，後會有期！
+[學生A]
+attendance = 請假
+studycase = N/A
+attitude = N/A
+email_list = example1@gmail.com
+    example2@gmail.com

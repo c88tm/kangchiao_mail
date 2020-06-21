@@ -5,14 +5,14 @@ import ConfigParser
 msg_template ="""
 親愛的家長您好：
  
-我是資訊奧林匹亞G8班老師蔡毓聰。
+我是資訊奧林匹亞G9班老師蔡毓聰。
 每次課程進度和學生學習狀況寄送給您，讓您了解貴子弟在奧林匹亞班學習狀況。
 
 學生：{a[name]}
 本週上課進度：{a[study]}
 本週小考： {a[quiz]}
 本週作業：{a[homework]}
-出席狀況：準時
+出席狀況：{a[attendance]}
 上課態度：{a[attitude]}
 學習狀況：{a[studycase]}
 特殊狀況報告：無
@@ -31,7 +31,7 @@ for section in config.sections():
     if section in 'DEFAULT':
         continue
     student = {'name':section}
-    for attr in ['quiz','study','studycase','attitude','date','homework','specialword','email_list']:
+    for attr in ['quiz','study','studycase','attitude','date','homework','specialword','email_list','attendance']:
         student[attr] = config.get(section,attr,vars={})
     msg = msg_template.format(a = student)
 

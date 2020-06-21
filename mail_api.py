@@ -10,7 +10,7 @@ class MailSender(object):
         self.mail_host= "smtp.gmail.com"  
         self.mail_user= "qpudding1023@gmail.com" # Gmail 信箱
         self.mail_pass= "33554432pudding" # 密碼
-        self.sender = 'qpudding1023@gmail.com' # 信箱名
+        self.sender = 'c88tm159357@gmail.com' # 信箱名
         self.receivers = mail_list
     def send(self):
         try:
